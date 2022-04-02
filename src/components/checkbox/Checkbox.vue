@@ -1,7 +1,6 @@
 <template>
     <label
-        class="b-checkbox checkbox"
-        :class="[size, { 'is-disabled': disabled }]"
+        :class="[b-checkbox, checkbox, size, { 'is-disabled': disabled }]"
         ref="label"
         :disabled="disabled"
         @click="focus"
